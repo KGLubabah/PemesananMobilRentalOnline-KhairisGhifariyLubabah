@@ -1,0 +1,48 @@
+body{
+	font-family: sans-serif;
+	background-image:url("2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: norepeat;
+	width:98%;
+	height:90%;
+}
+ 
+h1{
+	text-align: center;
+	font-weight: 300;
+}
+ 
+.fontlogin{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotaklogin{
+	width: 350px;
+	background: white;
+	margin: 20px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.formlogin{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombollogin{
+	background: #00BFFF;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}

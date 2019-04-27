@@ -5,10 +5,9 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #00CED1;
+  background-image: url("1.jpg");
 }
 
-/* Header */
 .header {
   padding: 150px;
   background-image: url("mobil.jpg");
@@ -21,17 +20,17 @@ body {
   font-size: 50px;
 }
 
-/* top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #BDB76B;
   color: #ffffff;
   text-align: center;
 }
 
-.leftcolumn {   
-  float: center;
-  width: 75%;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .card {
@@ -42,10 +41,9 @@ body {
 
 .botnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #BDB76B;
 }
 
-/* topnav links */
 .botnav a {
   float: center;
   display: block;
@@ -55,8 +53,102 @@ body {
   text-decoration: none;
 }
 
-/* color on hover */
 .botnav a:hover {
   background-color: #ddd;
   color: white;
 }
+
+.huruf {
+	text-align: center;
+	color: #ffffff;
+}
+
+.botnav2 {
+  overflow: auto;
+  background-color: #BDB76B;
+  color: #ffffff;
+  text-align: center;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.leftcolumn2 {   
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn2 {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.leftcolumn3 {   
+  float: left;
+  width: 50%;
+}
+
+.rightcolumn3 {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.avanza {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("avanza.png");
+	background-position: center;
+}
+
+.ertiga {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("ertiga.png");
+	background-position: center;
+}
+
+.innova {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("innova.png");
+	background-position: center;
+}
+
+.hiace {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("hiace.png");
+	background-position: center;
+}
+
+.elf {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("elf.png");
+	background-position: center;
+}
+
+.fortuner {
+	height: 40%;
+	width: 53%;
+	padding: 30px;
+	background-image: url("fortuner.png");
+	background-position: center;
+}
+
+	
